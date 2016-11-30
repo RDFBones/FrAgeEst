@@ -1,0 +1,2413 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/carolin/ontologies/2016/9/untitled-ontology-37">
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Declaration>
+        <Class IRI="#AgeRange"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeRangeSphenofrontalSuture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeRangeSphenoparietalSuture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeRangeSuturaCoronoidea1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeRangeSuturaCoronoidea2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeRangeSuturaCoronoidea3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeRangeSuturaLambdoidea1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeRangeSuturaLambdoidea2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeRangeSuturaLambdoidea3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeRangeSuturaSagittalis1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeRangeSuturaSagittalis2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeRangeSuturaSagittalis3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#AgeRangeSuturaSagittalis4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assay.SphenofrontalSuture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assay.SphenoparietalSuture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assay.SuturaCoronoidea1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assay.SuturaCoronoidea2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assay.SuturaCoronoidea3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assay.SuturaLambdoidea1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assay.SuturaLambdoidea2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assay.SuturaLambdoidea3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assay.SuturaSagittalis1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assay.SuturaSagittalis2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assay.SuturaSagittalis3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Assay.SuturaSagittalis4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenofrontalSuture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenoparietalSuture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DrawingAConclusionBasedOnData.FrAgeEst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntirePartOfSphenofrontalSuture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntirePartOfSphenoparietalSuture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntirePartOfSuturaCoronoidea1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntirePartOfSuturaCoronoidea2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntirePartOfSuturaCoronoidea3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntirePartOfSuturaLambdoidea1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntirePartOfSuturaLambdoidea2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntirePartOfSuturaLambdoidea3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntirePartOfSuturaSagittalis1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntirePartOfSuturaSagittalis2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntirePartOfSuturaSagittalis3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#EntirePartOfSuturaSagittalis4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Investigation.FrAgeEst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Plan.FrAgeEst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Planning.FrAgeEst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SkeletalMaterialSpecification.FrAgeEst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specimen.SphenofrontalSuture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specimen.SphenoparietalSuture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specimen.SuturaCoronoidea1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specimen.SuturaCoronoidea2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specimen.SuturaCoronoidea3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specimen.SuturaLambdoidea1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specimen.SuturaLambdoidea2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specimen.SuturaLambdoidea3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specimen.SuturaSagittalis1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specimen.SuturaSagittalis2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specimen.SuturaSagittalis3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Specimen.SuturaSagittalis4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenCollectionProcess.SphenofrontalSuture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenCollectionProcess.SphenoparietalSuture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis1"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis2"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SutureScore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#&apos;Hermann_et_al_1990&apos;"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#&apos;Vallois_1937&apos;"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#20-29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#33-42"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#35-44"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#38-47"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#45-54"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#50-59"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#55-64"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#65-74"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#70"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AgeEstimation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssaySpecification.SphenofrontalSuture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssaySpecification.SphenoparietalSuture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssaySpecification.SuturaCoronoidea1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssaySpecification.SuturaCoronoidea2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssaySpecification.SuturaCoronoidea3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssaySpecification.SuturaLambdoidea1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssaySpecification.SuturaLambdoidea2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssaySpecification.SuturaLambdoidea3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssaySpecification.SuturaSagittalis1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssaySpecification.SuturaSagittalis2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssaySpecification.SuturaSagittalis3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AssaySpecification.SuturaSagittalis4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Closed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fusion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Open"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SphenofrontalSuture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SphenoparietalSuture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaCoronoidea1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaCoronoidea2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaCoronoidea3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaLambdoidea1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaLambdoidea2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaLambdoidea3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecificationOfDataToBeGeneratedInAnInvestigation.FrAgeEst"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SphenofrontalSuture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SphenoparietalSuture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaCoronoidea1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaCoronoidea2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaCoronoidea3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaLambdoidea1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaLambdoidea2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaLambdoidea3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaSagittalis1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaSagittalis2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaSagittalis3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaSagittalis4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StudyDesign.FrAgeEst"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValueSpecification.SphenofrontalSuture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValueSpecification.SphenoparietalSuture"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValueSpecification.SuturaCoronoidea1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValueSpecification.SuturaCoronoidea2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValueSpecification.SuturaCoronoidea3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValueSpecification.SuturaLambdoidea1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValueSpecification.SuturaLambdoidea2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValueSpecification.SuturaLambdoidea3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValueSpecification.SuturaSagittalis1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValueSpecification.SuturaSagittalis2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValueSpecification.SuturaSagittalis3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ValueSpecification.SuturaSagittalis4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a29"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a42"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a44"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a47"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a54"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a59"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a64"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a70"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#a74"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#u20"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#u33"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#u35"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#u38"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#u45"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#u50"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#u55"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#u65"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#u70"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AgeRange"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000938"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeRangeSphenofrontalSuture"/>
+        <Class IRI="#AgeRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeRangeSphenoparietalSuture"/>
+        <Class IRI="#AgeRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeRangeSuturaCoronoidea1"/>
+        <Class IRI="#AgeRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeRangeSuturaCoronoidea2"/>
+        <Class IRI="#AgeRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeRangeSuturaCoronoidea3"/>
+        <Class IRI="#AgeRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeRangeSuturaLambdoidea1"/>
+        <Class IRI="#AgeRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeRangeSuturaLambdoidea2"/>
+        <Class IRI="#AgeRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeRangeSuturaLambdoidea3"/>
+        <Class IRI="#AgeRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeRangeSuturaSagittalis1"/>
+        <Class IRI="#AgeRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeRangeSuturaSagittalis2"/>
+        <Class IRI="#AgeRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeRangeSuturaSagittalis3"/>
+        <Class IRI="#AgeRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeRangeSuturaSagittalis4"/>
+        <Class IRI="#AgeRange"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SphenofrontalSuture"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SphenofrontalSuture"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#Specimen.SphenofrontalSuture"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SphenofrontalSuture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SphenofrontalSuture"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SphenoparietalSuture"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SphenoparietalSuture"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#Specimen.SphenoparietalSuture"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SphenoparietalSuture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SphenoparietalSuture"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaCoronoidea1"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaCoronoidea1"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#Specimen.SuturaCoronoidea1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaCoronoidea1"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaCoronoidea1"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaCoronoidea2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaCoronoidea2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#Specimen.SuturaCoronoidea2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaCoronoidea2"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaCoronoidea2"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaCoronoidea3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaCoronoidea3"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#Specimen.SuturaCoronoidea3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaCoronoidea3"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaCoronoidea3"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaLambdoidea1"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaLambdoidea1"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#Specimen.SuturaLambdoidea1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaLambdoidea1"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaLambdoidea1"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaLambdoidea2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaLambdoidea2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#Specimen.SuturaLambdoidea2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaLambdoidea2"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaLambdoidea2"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaLambdoidea3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaLambdoidea3"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#Specimen.SuturaLambdoidea3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaLambdoidea3"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaLambdoidea3"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis1"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis1"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#Specimen.SuturaSagittalis1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis1"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis1"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#Specimen.SuturaSagittalis2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis2"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis2"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis3"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#Specimen.SuturaSagittalis3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis3"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis3"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis4"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000070"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis4"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#Specimen.SuturaSagittalis4"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis4"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000055"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Assay.SuturaSagittalis4"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenofrontalSuture"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenofrontalSuture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenofrontalSuture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenofrontalSuture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
+            <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenofrontalSuture"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeRangeSphenofrontalSuture"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenoparietalSuture"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenoparietalSuture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenoparietalSuture"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenoparietalSuture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
+            <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenoparietalSuture"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeRangeSphenoparietalSuture"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea1"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea1"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
+            <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea1"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeRangeSuturaCoronoidea1"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea2"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
+            <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea2"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeRangeSuturaCoronoidea2"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea3"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea3"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea3"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
+            <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea3"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeRangeSuturaCoronoidea3"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea1"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea1"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
+            <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea1"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeRangeSuturaLambdoidea1"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea2"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
+            <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea2"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeRangeSuturaLambdoidea2"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea3"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea3"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea3"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
+            <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea3"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeRangeSuturaLambdoidea3"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis1"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis1"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis1"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
+            <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis1"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeRangeSuturaSagittalis1"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis2"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis2"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
+            <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis2"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeRangeSuturaSagittalis2"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis3"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis3"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#SutureScore"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis3"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
+            <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis3"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeRangeSuturaSagittalis3"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DrawingAConclusionBasedOnData.FrAgeEst"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000338"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Investigation.FrAgeEst"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000066"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Investigation.FrAgeEst"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <NamedIndividual IRI="#StudyDesign.FrAgeEst"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Plan.FrAgeEst"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000260"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Planning.FrAgeEst"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000339"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkeletalMaterialSpecification.FrAgeEst"/>
+        <Class IRI="http://w3id.org/rdfbones/core#SkeletalMaterialSpecification"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SkeletalMaterialSpecification.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/IAO_0000136"/>
+            <Class IRI="http://w3id.org/rdfbones/core#SkeletalInventory"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SphenofrontalSuture"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SphenofrontalSuture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SphenoparietalSuture"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SphenoparietalSuture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaCoronoidea1"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaCoronoidea1"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaCoronoidea2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaCoronoidea2"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaCoronoidea3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaCoronoidea3"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaLambdoidea1"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaLambdoidea1"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaLambdoidea2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaLambdoidea2"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaLambdoidea3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaLambdoidea3"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaSagittalis1"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaSagittalis1"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaSagittalis2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaSagittalis2"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaSagittalis3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaSagittalis3"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaSagittalis4"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0100051"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Specimen.SuturaSagittalis4"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/RO_0000053"/>
+            <NamedIndividual IRI="#AgeEstimation"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SphenofrontalSuture"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SphenofrontalSuture"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#EntirePartOfSphenofrontalSuture"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SphenofrontalSuture"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#Specimen.SphenofrontalSuture"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SphenofrontalSuture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+            <NamedIndividual IRI="#SkeletalMaterialRequirement.SphenofrontalSuture"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SphenoparietalSuture"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SphenoparietalSuture"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#EntirePartOfSphenoparietalSuture"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SphenoparietalSuture"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#Specimen.SphenoparietalSuture"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SphenoparietalSuture"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+            <NamedIndividual IRI="#SkeletalMaterialRequirement.SphenoparietalSuture"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea1"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea1"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#EntirePartOfSuturaCoronoidea1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea1"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#Specimen.SuturaCoronoidea1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea1"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+            <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaCoronoidea1"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#EntirePartOfSuturaCoronoidea2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#Specimen.SuturaCoronoidea2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea2"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+            <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaCoronoidea2"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea3"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#EntirePartOfSuturaCoronoidea3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea3"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#Specimen.SuturaCoronoidea3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea3"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+            <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaCoronoidea3"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea1"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea1"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#EntirePartOfSuturaLambdoidea1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea1"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#Specimen.SuturaLambdoidea1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea1"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+            <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaLambdoidea1"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#EntirePartOfSuturaLambdoidea2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#Specimen.SuturaLambdoidea2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea2"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+            <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaLambdoidea2"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea3"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#EntirePartOfSuturaLambdoidea3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea3"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#Specimen.SuturaLambdoidea3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea3"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+            <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaLambdoidea3"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis1"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis1"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#EntirePartOfSuturaSagittalis1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis1"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#Specimen.SuturaSagittalis1"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis1"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+            <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis1"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis2"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#EntirePartOfSuturaSagittalis2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis2"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#Specimen.SuturaSagittalis2"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis2"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+            <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis2"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis3"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis3"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#EntirePartOfSuturaSagittalis3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis3"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#Specimen.SuturaSagittalis3"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis3"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+            <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis3"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis4"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis4"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
+            <Class IRI="#EntirePartOfSuturaSagittalis4"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis4"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#Specimen.SuturaSagittalis4"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis4"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+            <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis4"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000471"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
+            <Class IRI="#Investigation.FrAgeEst"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#Assay.SphenofrontalSuture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#Assay.SphenoparietalSuture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#Assay.SuturaCoronoidea1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#Assay.SuturaCoronoidea2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#Assay.SuturaCoronoidea3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#Assay.SuturaLambdoidea1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#Assay.SuturaLambdoidea2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#Assay.SuturaLambdoidea3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#Assay.SuturaSagittalis1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#Assay.SuturaSagittalis2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#Assay.SuturaSagittalis3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#Assay.SuturaSagittalis4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SpecimenCollectionProcess.SphenofrontalSuture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SpecimenCollectionProcess.SphenoparietalSuture"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SpecimenCollectionProcess.SuturaCoronoidea3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SpecimenCollectionProcess.SuturaLambdoidea3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis1"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis2"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis3"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#StudyDesignExecution.FrAgeEst"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
+            <Class IRI="#SpecimenCollectionProcess.SuturaSagittalis4"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SutureScore"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000938"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SutureScore"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="http://www.semanticweb.org/martin/ontologies/2016/8/untitled-ontology-26#inverse_IsAbout"/>
+            <NamedIndividual IRI="#SpecificationOfDataToBeGeneratedInAnInvestigation.FrAgeEst"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/bibo/Book"/>
+        <NamedIndividual IRI="#&apos;Hermann_et_al_1990&apos;"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.org/ontology/bibo/AcademicArticle"/>
+        <NamedIndividual IRI="#&apos;Vallois_1937&apos;"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaSagittalis3"/>
+        <NamedIndividual IRI="#20-29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaCoronoidea3"/>
+        <NamedIndividual IRI="#33-42"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaSagittalis2"/>
+        <NamedIndividual IRI="#35-44"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaSagittalis4"/>
+        <NamedIndividual IRI="#38-47"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaCoronoidea1"/>
+        <NamedIndividual IRI="#45-54"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSphenofrontalSuture"/>
+        <NamedIndividual IRI="#50-59"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaSagittalis1"/>
+        <NamedIndividual IRI="#50-59"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSphenoparietalSuture"/>
+        <NamedIndividual IRI="#55-64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaLambdoidea2"/>
+        <NamedIndividual IRI="#55-64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaLambdoidea1"/>
+        <NamedIndividual IRI="#65-74"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaCoronoidea2"/>
+        <NamedIndividual IRI="#70"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000067"/>
+        <NamedIndividual IRI="#AgeEstimation"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <NamedIndividual IRI="#AssaySpecification.SphenofrontalSuture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <NamedIndividual IRI="#AssaySpecification.SphenoparietalSuture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <NamedIndividual IRI="#AssaySpecification.SuturaCoronoidea1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <NamedIndividual IRI="#AssaySpecification.SuturaCoronoidea2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <NamedIndividual IRI="#AssaySpecification.SuturaCoronoidea3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <NamedIndividual IRI="#AssaySpecification.SuturaLambdoidea1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <NamedIndividual IRI="#AssaySpecification.SuturaLambdoidea2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <NamedIndividual IRI="#AssaySpecification.SuturaLambdoidea3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <NamedIndividual IRI="#AssaySpecification.SuturaSagittalis1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <NamedIndividual IRI="#AssaySpecification.SuturaSagittalis2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <NamedIndividual IRI="#AssaySpecification.SuturaSagittalis3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <NamedIndividual IRI="#AssaySpecification.SuturaSagittalis4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SutureScore"/>
+        <NamedIndividual IRI="#Closed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200166"/>
+        <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SutureScore"/>
+        <NamedIndividual IRI="#Fusion"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SutureScore"/>
+        <NamedIndividual IRI="#NA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SutureScore"/>
+        <NamedIndividual IRI="#Open"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SphenofrontalSuture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SphenoparietalSuture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaCoronoidea1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaCoronoidea2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaCoronoidea3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaLambdoidea1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaLambdoidea2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaLambdoidea3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001892"/>
+        <NamedIndividual IRI="#SpecificationOfDataToBeGeneratedInAnInvestigation.FrAgeEst"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SphenofrontalSuture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SphenoparietalSuture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaCoronoidea1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaCoronoidea2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaCoronoidea3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaLambdoidea1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaLambdoidea2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaLambdoidea3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaSagittalis1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaSagittalis2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaSagittalis3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <NamedIndividual IRI="#SpecimenCollectionObjective.SuturaSagittalis4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0500000"/>
+        <NamedIndividual IRI="#StudyDesign.FrAgeEst"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <NamedIndividual IRI="#ValueSpecification.SphenoparietalSuture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <NamedIndividual IRI="#ValueSpecification.SuturaCoronoidea1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <NamedIndividual IRI="#ValueSpecification.SuturaCoronoidea2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <NamedIndividual IRI="#ValueSpecification.SuturaCoronoidea3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <NamedIndividual IRI="#ValueSpecification.SuturaLambdoidea1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <NamedIndividual IRI="#ValueSpecification.SuturaLambdoidea2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <NamedIndividual IRI="#ValueSpecification.SuturaLambdoidea3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <NamedIndividual IRI="#ValueSpecification.SuturaSagittalis1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <NamedIndividual IRI="#ValueSpecification.SuturaSagittalis2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <NamedIndividual IRI="#ValueSpecification.SuturaSagittalis3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <NamedIndividual IRI="#ValueSpecification.SuturaSagittalis4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaSagittalis3"/>
+        <NamedIndividual IRI="#a29"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaCoronoidea3"/>
+        <NamedIndividual IRI="#a42"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaSagittalis2"/>
+        <NamedIndividual IRI="#a44"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaSagittalis4"/>
+        <NamedIndividual IRI="#a47"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaCoronoidea1"/>
+        <NamedIndividual IRI="#a54"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSphenofrontalSuture"/>
+        <NamedIndividual IRI="#a59"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaSagittalis1"/>
+        <NamedIndividual IRI="#a59"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSphenoparietalSuture"/>
+        <NamedIndividual IRI="#a64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaLambdoidea2"/>
+        <NamedIndividual IRI="#a64"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaCoronoidea2"/>
+        <NamedIndividual IRI="#a70"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaLambdoidea1"/>
+        <NamedIndividual IRI="#a74"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaLambdoidea3"/>
+        <NamedIndividual IRI="#a74"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaSagittalis3"/>
+        <NamedIndividual IRI="#u20"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaCoronoidea3"/>
+        <NamedIndividual IRI="#u33"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaSagittalis2"/>
+        <NamedIndividual IRI="#u35"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaSagittalis4"/>
+        <NamedIndividual IRI="#u38"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaCoronoidea1"/>
+        <NamedIndividual IRI="#u45"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSphenofrontalSuture"/>
+        <NamedIndividual IRI="#u50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaSagittalis1"/>
+        <NamedIndividual IRI="#u50"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSphenoparietalSuture"/>
+        <NamedIndividual IRI="#u55"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaLambdoidea2"/>
+        <NamedIndividual IRI="#u55"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaLambdoidea1"/>
+        <NamedIndividual IRI="#u65"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaCoronoidea2"/>
+        <NamedIndividual IRI="#u70"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#AgeRangeSuturaLambdoidea3"/>
+        <NamedIndividual IRI="#u70"/>
+    </ClassAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#&apos;Hermann_et_al_1990&apos;</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Herrmann, B.; Gruppe, G.; Hummel, S.; Piepenbrink, H.; Schutkowski,H.: Prähistorische Anthropologie. Leitfaden der Feld- und Labormethoden (Berlin/Heidelberg 1990), 67, Abb. 3.2.1.8.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#&apos;Vallois_1937&apos;</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Vallois, H.V.: La duree de la vie chez l&apos;homme fossile. (1937), L&apos;Anthropologie, Vol. 47, Dec.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#55-64</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">55-64</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
+        <IRI>#Assay.SphenofrontalSuture</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The Sphenofrontal suture is the cranial suture between the sphenoid bone and the frontal bone (20th edition of Gray&apos;s Anatomy 1918).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
+        <IRI>#Assay.SphenoparietalSuture</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The Sphenoparietal suture is the cranial suture between the sphenoid bone and the parietal bone. It is one of the sutures that comprises the pterion (20th edition of Gray&apos;s Anatomy 1918).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
+        <IRI>#Assay.SuturaCoronoidea1</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The coronal suture is a dense, fibrous connective tissue joint that separates the frontal and parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
+        <IRI>#Assay.SuturaCoronoidea2</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The coronal suture is a dense, fibrous connective tissue joint that separates the frontal and parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
+        <IRI>#Assay.SuturaCoronoidea3</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The coronal suture is a dense, fibrous connective tissue joint that separates the frontal and parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
+        <IRI>#Assay.SuturaLambdoidea1</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The lambdoid suture (or lambdoidal suture) is a dense, fibrous connective tissue joint on the posterior aspect of the skull that connects the parietal bones with the occipital bone. It is continuous with the occipitomastoid suture (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
+        <IRI>#Assay.SuturaLambdoidea2</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The lambdoid suture (or lambdoidal suture) is a dense, fibrous connective tissue joint on the posterior aspect of the skull that connects the parietal bones with the occipital bone. It is continuous with the occipitomastoid suture (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
+        <IRI>#Assay.SuturaLambdoidea3</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The lambdoid suture (or lambdoidal suture) is a dense, fibrous connective tissue joint on the posterior aspect of the skull that connects the parietal bones with the occipital bone. It is continuous with the occipitomastoid suture (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
+        <IRI>#Assay.SuturaSagittalis1</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The sagittal suture is a dense, fibrous connective tissue joint between the two parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
+        <IRI>#Assay.SuturaSagittalis2</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The sagittal suture is a dense, fibrous connective tissue joint between the two parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
+        <IRI>#Assay.SuturaSagittalis3</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The sagittal suture is a dense, fibrous connective tissue joint between the two parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
+        <IRI>#Assay.SuturaSagittalis4</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The sagittal suture is a dense, fibrous connective tissue joint between the two parietal bones of the skull (Stedman&apos;s Medical Dictionary, 27th ed. 2000).</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#a29</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&gt;29</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#a42</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&gt;42</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#a44</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&gt;44</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#a47</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&gt;47</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#a54</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&gt;54</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#a59</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&gt;59</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#a64</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&gt;64</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#a70</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&gt;70</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#a74</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&gt;70</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#u20</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&lt;20</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#u33</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&lt;33</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#u35</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&lt;35</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#u38</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&lt;38</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#u45</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&lt;45</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#u50</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&lt;50</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#u55</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&lt;55</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#u65</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&lt;65</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>#u70</IRI>
+        <Literal datatypeIRI="&rdf;PlainLiteral">&lt;70</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
