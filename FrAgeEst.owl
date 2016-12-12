@@ -2309,7 +2309,7 @@
         <NamedIndividual IRI="#u70"/>
     </ClassAssertion>
     <ClassAssertion>
-        <Class IRI="http://purl.org/ontology/bibo/Boook"/>
+        <Class IRI="http://purl.org/ontology/bibo/Book"/>
         <NamedIndividual IRI="#&apos;Hermann_et_al_1990&apos;"/>
     </ClassAssertion>
     <ClassAssertion>
