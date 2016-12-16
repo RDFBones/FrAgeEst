@@ -22,7 +22,7 @@
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
     <Declaration>
-        <Class IRI="#AgeRange"/>
+        <Class IRI="#AgeScore"/>
     </Declaration>
     <Declaration>
         <Class IRI="#AgeScoreSphenofrontalSuture"/>
@@ -130,7 +130,7 @@
         <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis3"/>
     </Declaration>
     <Declaration>
-        <Class IRI="#DataTransformation.fr.AgeEst.SuturaSagittalis4"/>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis4"/>
     </Declaration>
     <Declaration>
         <Class IRI="#EntirePartOfSphenofrontalSuture"/>
@@ -173,9 +173,6 @@
     </Declaration>
     <Declaration>
         <Class IRI="#Investigation.FrAgeEst"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="#LabelForAge"/>
     </Declaration>
     <Declaration>
         <Class IRI="#LabelForSutureScore"/>
@@ -559,11 +556,15 @@
         <NamedIndividual IRI="#70"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="#AgeRange"/>
+        <Class IRI="#AgeScore"/>
         <Class IRI="http://purl.obolibrary.org/obo/IAO_0000032"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#AgeRange"/>
+        <Class IRI="#AgeScore"/>
+        <Class IRI="http://purl.obolibrary.org/obo/OBI_0000938"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#AgeScore"/>
         <DataSomeValuesFrom>
             <DataProperty IRI="http://vivoweb.org/ontology/core#hasValue"/>
             <Datatype abbreviatedIRI="xsd:float"/>
@@ -571,51 +572,51 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgeScoreSphenofrontalSuture"/>
-        <Class IRI="#LabelForAge"/>
+        <Class IRI="#AgeScore"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgeScoreSphenoparietalSuture"/>
-        <Class IRI="#LabelForAge"/>
+        <Class IRI="#AgeScore"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgeScoreSuturaCoronoidea1"/>
-        <Class IRI="#LabelForAge"/>
+        <Class IRI="#AgeScore"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgeScoreSuturaCoronoidea2"/>
-        <Class IRI="#LabelForAge"/>
+        <Class IRI="#AgeScore"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgeScoreSuturaCoronoidea3"/>
-        <Class IRI="#LabelForAge"/>
+        <Class IRI="#AgeScore"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgeScoreSuturaLambdoidea1"/>
-        <Class IRI="#LabelForAge"/>
+        <Class IRI="#AgeScore"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgeScoreSuturaLambdoidea2"/>
-        <Class IRI="#LabelForAge"/>
+        <Class IRI="#AgeScore"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgeScoreSuturaLambdoidea3"/>
-        <Class IRI="#LabelForAge"/>
+        <Class IRI="#AgeScore"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgeScoreSuturaSagittalis1"/>
-        <Class IRI="#LabelForAge"/>
+        <Class IRI="#AgeScore"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgeScoreSuturaSagittalis2"/>
-        <Class IRI="#LabelForAge"/>
+        <Class IRI="#AgeScore"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgeScoreSuturaSagittalis3"/>
-        <Class IRI="#LabelForAge"/>
+        <Class IRI="#AgeScore"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#AgeScoreSuturaSagittalis4"/>
-        <Class IRI="#LabelForAge"/>
+        <Class IRI="#AgeScore"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#Assay.SphenofrontalSuture"/>
@@ -937,6 +938,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataTransformation.Fr.AgeEst.SphenofrontalSuture"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeScoreSphenofrontalSuture"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenofrontalSuture"/>
         <ObjectMaxCardinality cardinality="1">
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
             <Class IRI="#LabelForSutureScore"/>
@@ -962,6 +970,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataTransformation.Fr.AgeEst.SphenoparietalSuture"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeScoreSphenoparietalSuture"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SphenoparietalSuture"/>
         <ObjectMaxCardinality cardinality="1">
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
             <Class IRI="#LabelForSutureScore"/>
@@ -987,6 +1002,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea1"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeScoreSuturaCoronoidea1"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea1"/>
         <ObjectMaxCardinality cardinality="1">
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
             <Class IRI="#LabelForSutureScore"/>
@@ -1009,6 +1031,13 @@
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
             <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
         </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea2"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeScoreSuturaCoronoidea2"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea2"/>
@@ -1034,6 +1063,13 @@
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
             <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
         </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea3"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeScoreSuturaCoronoidea3"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataTransformation.Fr.AgeEst.SuturaCoronoidea3"/>
@@ -1059,6 +1095,13 @@
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
             <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
         </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea1"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeScoreSuturaLambdoidea1"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea1"/>
@@ -1084,6 +1127,13 @@
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
             <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
         </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea2"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeScoreSuturaLambdoidea2"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea2"/>
@@ -1102,6 +1152,13 @@
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="#StudyDesignExecution.FrAgeEst"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea3"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeScoreSuturaLambdoidea3"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataTransformation.Fr.AgeEst.SuturaLambdoidea3"/>
@@ -1137,6 +1194,13 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis1"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeScoreSuturaSagittalis1"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis1"/>
         <ObjectMaxCardinality cardinality="1">
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
             <Class IRI="#LabelForSutureScore"/>
@@ -1152,6 +1216,13 @@
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="#StudyDesignExecution.FrAgeEst"/>
         </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis2"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeScoreSuturaSagittalis2"/>
+        </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis2"/>
@@ -1187,31 +1258,45 @@
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis3"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeScoreSuturaSagittalis3"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis3"/>
         <ObjectMaxCardinality cardinality="1">
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
             <Class IRI="#LabelForSutureScore"/>
         </ObjectMaxCardinality>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DataTransformation.fr.AgeEst.SuturaSagittalis4"/>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis4"/>
         <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DataTransformation.fr.AgeEst.SuturaSagittalis4"/>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis4"/>
         <ObjectSomeValuesFrom>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000050"/>
             <Class IRI="#StudyDesignExecution.FrAgeEst"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DataTransformation.fr.AgeEst.SuturaSagittalis4"/>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis4"/>
         <ObjectHasValue>
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000417"/>
             <NamedIndividual IRI="#DataTransformationObjective.FrAgeEst"/>
         </ObjectHasValue>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="#DataTransformation.fr.AgeEst.SuturaSagittalis4"/>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis4"/>
+        <ObjectExactCardinality cardinality="1">
+            <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
+            <Class IRI="#AgeScoreSuturaSagittalis4"/>
+        </ObjectExactCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DataTransformation.Fr.AgeEst.SuturaSagittalis4"/>
         <ObjectMaxCardinality cardinality="1">
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000299"/>
             <Class IRI="#LabelForSutureScore"/>
@@ -1225,7 +1310,7 @@
         <Class IRI="#EstimatingAgeBasedOnAgeRange"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000293"/>
-            <Class IRI="#AgeRange"/>
+            <Class IRI="#AgeScore"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
@@ -1266,10 +1351,6 @@
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
             <Class IRI="#StudyDesignExecution.FrAgeEst"/>
         </ObjectSomeValuesFrom>
-    </SubClassOf>
-    <SubClassOf>
-        <Class IRI="#LabelForAge"/>
-        <Class IRI="http://purl.obolibrary.org/obo/OBI_0200000"/>
     </SubClassOf>
     <SubClassOf>
         <Class IRI="#LabelForSutureScore"/>
@@ -1941,7 +2022,7 @@
         <Class IRI="#SutureScore"/>
         <ObjectExactCardinality cardinality="1">
             <ObjectProperty IRI="http://purl.obolibrary.org/obo/OBI_0000999"/>
-            <Class IRI="#LabelForAge"/>
+            <Class IRI="#AgeScore"/>
         </ObjectExactCardinality>
     </SubClassOf>
     <SubClassOf>
@@ -2368,7 +2449,7 @@ All material and all traits (=assays) that can be used to estimate the age of an
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
-        <IRI>#AgeRange</IRI>
+        <IRI>#AgeScore</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The AgeRange is calculated from SutureScores from assays carried out on material of one single skull or parts of one single skull. Thus, the conclusion refers to one individual.
 
 The AgeRange is a
@@ -2401,7 +2482,7 @@ In this case, please add a comment to the instance of EstimatingSexBasedOnDegree
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
-        <IRI>#AgeRange</IRI>
+        <IRI>#AgeScore</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The AgeRange is the outcome of the DataTransformation.FrAgeEst.
 According to the DataTransformationObjective.FrAgeEst, the AgeRange is only calculated from weighted means of data items (SutureScores) which were collected on a single skull.
 A DegreeOfSexualization calculated from data items collected from material that belongs to different individuals is meaningless.
@@ -2410,7 +2491,7 @@ The final AgeRange is freely chosen based on experience and consideration of the
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#Assay.SphenofrontalSuture</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The Sphenofrontal suture is the cranial suture between the sphenoid bone and the frontal bone (20th edition of Gray&apos;s Anatomy 1918).</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The SphenofrontalSuture should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
@@ -2556,7 +2637,7 @@ S3 = closed = &lt;29 years</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
-        <IRI>#DataTransformation.fr.AgeEst.SuturaSagittalis4</IRI>
+        <IRI>#DataTransformation.Fr.AgeEst.SuturaSagittalis4</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">S4 = open = &gt;38 years 
 S4 = fusion = 38-47 years 
 S4 = closed = &lt;47 years</Literal>
