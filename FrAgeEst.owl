@@ -2240,12 +2240,12 @@
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
         <NamedIndividual IRI="#StudyDesign.FrAgeEst"/>
-        <NamedIndividual IRI="#AssaySpecification.SuturaSagittalis3"/>
+        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
         <NamedIndividual IRI="#StudyDesign.FrAgeEst"/>
-        <NamedIndividual IRI="#SkeletalMaterialRequirement.SuturaSagittalis3"/>
+        <NamedIndividual IRI="#AssaySpecification.SuturaSagittalis3"/>
     </ObjectPropertyAssertion>
     <ObjectPropertyAssertion>
         <ObjectProperty IRI="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -2368,62 +2368,110 @@ The AgeRange is a range between to particular ages.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#Assay.SphenofrontalSuture</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The SphenofrontalSuture should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SphenofrontalSuture
+
+The Sphenofrontal suture is the cranial suture between the sphenoid bone and the frontal bone.
+
+The SphenofrontalSuture should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#Assay.SphenoparietalSuture</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The SphenoparietalSuture should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SphenoparietalSuture
+
+The Sphenoparietal suture is the cranial suture between the sphenoid bone and the parietal bone. It is one of the sutures that comprises the pterion.
+
+The SphenofrontalSuture should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#Assay.SuturaCoronoidea1</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The SuturaCoronoidea1 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SuturaCoronoidea1
+
+C1: Most medial, relatively straight, portion of the coronal suturethat begins at the bregma and ends where the coronal suture becomes tortuous.
+
+The SuturaCoronoidea1 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#Assay.SuturaCoronoidea2</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The SuturaCoronoidea2 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SuturaCoronoidea2
+
+C2: Middle, tortuous portion of the coronal suture between the bregma and the pterion; between the straight portions of C1 and C3.
+
+The SuturaCoronoidea1 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#Assay.SuturaCoronoidea3</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The SuturaCoronoidea3 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SuturaCoronoidea3
+
+C3: Most lateral, straight portion of the coronal suture, that begins after the tortuous portion (C2) and ends at the pterion.
+
+The SuturaCoronoidea1 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#Assay.SuturaLambdoidea1</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The SuturaLambdoidea1 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SuturaLambdoidea1
+
+L1: Most medial, straight portion of the lambdoidal suture, that begins at lambda and ends where the lambdoidal suture becomes tortuous.
+
+The SuturaCoronoidea1 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#Assay.SuturaLambdoidea2</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The SuturaLambdoidea2 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SuturaLambdoidea2
+
+L2: The middle, tortous portion of the lambdoidal suture between the lambda and the asterion; between the straight portions of L1 and L3.
+
+The SuturaCoronoidea1 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#Assay.SuturaLambdoidea3</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The SuturaLambdoidea3 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SuturaLambdoidea3
+
+L3: Most lateral, straight portion of the lambdoidal suture, , that begins after the tortuous portion (L2) and ends at the asterion.
+
+The SuturaCoronoidea1 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#Assay.SuturaSagittalis1</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The SuturaSagittalis1 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SuturaSagittalis1
+
+S1: The most anterior, straight portion of the sagittal suture (the closure line of the anterior fontanelle) (around 3cm), that begins at the bregma and ends where the sagittal suture becomes tortuous.
+
+The SuturaCoronoidea1 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#Assay.SuturaSagittalis2</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The SuturaSagittalis2 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">TSuturaSagittalis1
+
+S2: The tortuous portion of the sagittal suture, directly posterior to S1 (around 5cm).
+
+The SuturaCoronoidea1 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#Assay.SuturaSagittalis3</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The SuturaSagittalis3 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SuturaSagittalis1
+
+S3: The posterior, straight portion of the sagittal suture between S2 and S4.
+
+The SuturaCoronoidea1 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#Assay.SuturaSagittalis4</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">The SuturaSagittalis4 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
+        <Literal datatypeIRI="&rdf;PlainLiteral">SuturaSagittalis1
+
+S4: The most posterior, tortuous part of the sagittal suture that begins after S3 and ends at the lambda.
+
+The SuturaCoronoidea1 should be scored according to Hermann et al. 1990. All sections according to Hermann et al. 1990 that can be found on the fragment should be scored in an objective manner by the researcher. The sections should be classified as either 1) open, 2) in fusion, 3) closed, or 4) N/A.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
@@ -2553,7 +2601,10 @@ The AgeRange is a range between to particular ages.</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#DataTransformation.Fr.AgeEst.SphenofrontalSuture</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Sphenofrontal Suture
+        <Literal datatypeIRI="&rdf;PlainLiteral">A DataTransformation.FrAgeEst is performed to obtain a AgeRange.
+According to the DataTransformationObjective.FrAgeEst, the AgeRange is only calculated from SutureScore which were collected on a single skull.
+
+Sphenofrontal Suture
 
 SF1 = open = &gt;50 years
 SF1 = fusion = 50-59 years 
@@ -2562,7 +2613,10 @@ SF1 = closed = &lt;59 years</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#DataTransformation.Fr.AgeEst.SphenoparietalSuture</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Sphenoparietal Suture
+        <Literal datatypeIRI="&rdf;PlainLiteral">A DataTransformation.FrAgeEst is performed to obtain a AgeRange.
+According to the DataTransformationObjective.FrAgeEst, the AgeRange is only calculated from SutureScore which were collected on a single skull.
+
+Sphenoparietal Suture
 
 SP1 = open = &gt;55 years
 SP1 = fusion = 55-64 years 
@@ -2571,7 +2625,10 @@ SP1 = closed = &lt;64 years</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#DataTransformation.Fr.AgeEst.SuturaCoronoidea1</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Sutura Coronoidea
+        <Literal datatypeIRI="&rdf;PlainLiteral">A DataTransformation.FrAgeEst is performed to obtain a AgeRange.
+According to the DataTransformationObjective.FrAgeEst, the AgeRange is only calculated from SutureScore which were collected on a single skull.
+
+Sutura Coronoidea
 
 C1 = open = &gt;45 years 
 C1 = fusion = 45-54 years 
@@ -2580,21 +2637,30 @@ C1 = closed = &lt;54 years</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#DataTransformation.Fr.AgeEst.SuturaCoronoidea2</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C2 = open = &gt;70 years 
+        <Literal datatypeIRI="&rdf;PlainLiteral">A DataTransformation.FrAgeEst is performed to obtain a AgeRange.
+According to the DataTransformationObjective.FrAgeEst, the AgeRange is only calculated from SutureScore which were collected on a single skull.
+
+C2 = open = &gt;70 years 
 C2 = fusion = 70 years 
 C2 = closed = &lt;70 years</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#DataTransformation.Fr.AgeEst.SuturaCoronoidea3</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">C3 = open = &gt;33 years 
+        <Literal datatypeIRI="&rdf;PlainLiteral">A DataTransformation.FrAgeEst is performed to obtain a AgeRange.
+According to the DataTransformationObjective.FrAgeEst, the AgeRange is only calculated from SutureScore which were collected on a single skull.
+
+C3 = open = &gt;33 years 
 C3 = fusion = 33-42 years 
 C3 = closed = &lt;42 years</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#DataTransformation.Fr.AgeEst.SuturaLambdoidea1</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Sutura Lambdoidea
+        <Literal datatypeIRI="&rdf;PlainLiteral">A DataTransformation.FrAgeEst is performed to obtain a AgeRange.
+According to the DataTransformationObjective.FrAgeEst, the AgeRange is only calculated from SutureScore which were collected on a single skull.
+
+Sutura Lambdoidea
 
 L1 = open = &gt;55 years 
 L1 = fusion = 55-64 years 
@@ -2603,21 +2669,30 @@ L1 = closed = &lt;64 years</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#DataTransformation.Fr.AgeEst.SuturaLambdoidea2</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">L2 = open = &gt;65 years 
+        <Literal datatypeIRI="&rdf;PlainLiteral">A DataTransformation.FrAgeEst is performed to obtain a AgeRange.
+According to the DataTransformationObjective.FrAgeEst, the AgeRange is only calculated from SutureScore which were collected on a single skull.
+
+L2 = open = &gt;65 years 
 L2 = fusion = 65-74 years 
 L2 = closed = &lt;74 years</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#DataTransformation.Fr.AgeEst.SuturaLambdoidea3</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">L3 = open = &gt;70 years 
+        <Literal datatypeIRI="&rdf;PlainLiteral">A DataTransformation.FrAgeEst is performed to obtain a AgeRange.
+According to the DataTransformationObjective.FrAgeEst, the AgeRange is only calculated from SutureScore which were collected on a single skull.
+
+L3 = open = &gt;70 years 
 L3 = fusion = 70 years 
 L3 = closed = &lt;70 years</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#DataTransformation.Fr.AgeEst.SuturaSagittalis1</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Sutura Sagittalis
+        <Literal datatypeIRI="&rdf;PlainLiteral">A DataTransformation.FrAgeEst is performed to obtain a AgeRange.
+According to the DataTransformationObjective.FrAgeEst, the AgeRange is only calculated from SutureScore which were collected on a single skull.
+
+Sutura Sagittalis
 
 S1 = open = &gt;50 years 
 S1 = fusion = 50-59 years 
@@ -2626,21 +2701,30 @@ S1 = closed = &lt;59 years</Literal>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#DataTransformation.Fr.AgeEst.SuturaSagittalis2</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">S2 = open = &gt;35 years 
+        <Literal datatypeIRI="&rdf;PlainLiteral">A DataTransformation.FrAgeEst is performed to obtain a AgeRange.
+According to the DataTransformationObjective.FrAgeEst, the AgeRange is only calculated from SutureScore which were collected on a single skull.
+
+S2 = open = &gt;35 years 
 S2 = fusion = 35-44 years 
 S2 = closed = &lt;44 years</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#DataTransformation.Fr.AgeEst.SuturaSagittalis3</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">S3 = open = &gt;20 years 
+        <Literal datatypeIRI="&rdf;PlainLiteral">A DataTransformation.FrAgeEst is performed to obtain a AgeRange.
+According to the DataTransformationObjective.FrAgeEst, the AgeRange is only calculated from SutureScore which were collected on a single skull.
+
+S3 = open = &gt;20 years 
 S3 = fusion = 20-29 years 
 S3 = closed = &lt;29 years</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#DataTransformation.Fr.AgeEst.SuturaSagittalis4</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">S4 = open = &gt;38 years 
+        <Literal datatypeIRI="&rdf;PlainLiteral">A DataTransformation.FrAgeEst is performed to obtain a AgeRange.
+According to the DataTransformationObjective.FrAgeEst, the AgeRange is only calculated from SutureScore which were collected on a single skull.
+
+S4 = open = &gt;38 years 
 S4 = fusion = 38-47 years 
 S4 = closed = &lt;47 years</Literal>
     </AnnotationAssertion>
@@ -2659,75 +2743,12 @@ Due to a lack of empirical evidence for a &quot;sufficient number of evaluated t
     <AnnotationAssertion>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#EstimatingAgeBasedOnAgeRange</IRI>
-        <Literal datatypeIRI="&rdf;PlainLiteral">Das ermittelte Alter von den jeweiligen Suturenabschnitten wird ermittelt und anshcließend damit ein ungefähren Altersbereich ebstimmt. Sehr persöhnliche Einschätzung
+        <Literal datatypeIRI="&rdf;PlainLiteral">The AgeRange is calculated from SutureScores from assays carried out on material of one single skull or parts of one single skull. Thus, the conclusion refers to one individual. The traits of the degree of ectocranial suture closure are evaluated according to Hermann et al. 1990. Additionaly, the Sphenofrontal suture and the sphenoparietal suture are evaluated. Each suture is usually given a suture score ( Open, Closed, Funsion, NA). 
 
-
-The AgeRange is calculated from SutureScores from assays carried out on material of one single skull or parts of one single skull. Thus, the conclusion refers to one individual.
+So to attain the age of a skeletal remain the researcher would comparing the suture scores to the known age scores.The way of drawing a conclusion based on the AgeRange. It is highly recommended to specify the way of drawing a conclusion in the plan and follow the plan throughout the whole investigation.
 
 One could regard the AgeRange just as an useful indication. Together with the expertise of an experienced anthropologist and maybe further information on the age estimation, the researcher may draw a conclusion. This conclusion – as an amalgamation of different kinds of information and experience – is therefore less objective and comprehensible but may be more reliable.
-In this case, please add a comment to the instance of EstimatingAgeBasedOnAgeRange and explain the conclusion in greater detail.
-
-Sutura Coronoidea
-
-C1 = open = &gt;45 years 
-C1 = fusion = 45-54 years 
-C1 = closed = &lt;54 years 
-
-C2 = open = &gt;70 years 
-C2 = fusion = 70 years 
-C2 = closed = &lt;70 years 
-
-C3 = open = &gt;33 years 
-C3 = fusion = 33-42 years 
-C3 = closed = &lt;42 years 
-
-
-Sutura Sagittalis
-
-S1 = open = &gt;50 years 
-S1 = fusion = 50-59 years 
-S1 = closed = &lt;59 years 
-
-S2 = open = &gt;35 years 
-S2 = fusion = 35-44 years 
-S2 = closed = &lt;44 years 
-
-S3 = open = &gt;20 years 
-S3 = fusion = 20-29 years 
-S3 = closed = &lt;29 years 
-
-S4 = open = &gt;38 years 
-S4 = fusion = 38-47 years 
-S4 = closed = &lt;47 years 
-
-
-Sutura Lambdoidea
-
-L1 = open = &gt;55 years 
-L1 = fusion = 55-64 years 
-L1 = closed = &lt;64 years 
-
-L2 = open = &gt;65 years 
-L2 = fusion = 65-74 years 
-L2 = closed = &lt;74 years 
-
-L3 = open = &gt;70 years 
-L3 = fusion = 70 years 
-L3 = closed = &lt;70 years 
-
-
-Sphenofrontal Suture
-
-SF1 = open = &gt;50 years
-SF1 = fusion = 50-59 years 
-SF1 = closed = &lt;59 years 
-
-
-Sphenoparietal Suture
-
-SP1 = open = &gt;55 years
-SP1 = fusion = 55-64 years 
-SP1 = closed = &lt;64 years</Literal>
+In this case, please add a comment to the instance of EstimatingAgeBasedOnAgeRange and explain the conclusion in greater detail.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
@@ -2743,7 +2764,7 @@ SP1 = closed = &lt;64 years</Literal>
         <AnnotationProperty IRI="http://vivoweb.org/ontology/core#description"/>
         <IRI>#LabelForSutureScore</IRI>
         <Literal datatypeIRI="&rdf;PlainLiteral">The instances of this class are used as labels for instances of subclasses of SutureScore and instances of EstimatingAgeBasedOnAgeRange (= drawing a conclusion).
-They denote the appearance of traits that a researcher evaluated or denote the ageof an individual that was estimated based on the AgeRange.</Literal>
+They denote the appearance of traits that a researcher evaluated or denote the age of an individual that was estimated based on the AgeRange.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
