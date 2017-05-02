@@ -88,11 +88,11 @@ A.E.W. Miles, The dentition in the assessment of individual age in skeletal mate
 
 This wiki should satisfy two objectives at once. On the one hand, the wiki contains further information about the extension itself (mostly network graphs) and some general tips for writing extensions to make FrAgeEst understandable and a valuable resource for programmers interested in writing their own extensions. On the other hand, it explicates the workflow of an FrAgeEst investigation for anthropologists interested in carrying out age estimations accordingly and archiving research data. The information is spread over the following wiki pages:
 
-* [General structure of FrAgeEst](General structure of FrAgeEst)
+* [General structure of FrAgeEst](https://github.com/RDFBones/FrAgeEst/wiki/General-structure-of-FrAgeEst)
 * [Investigation planning](Investigation planning FrAgeEst)
-* [Study design execution](Study design execution FrAgeEst)
-* [Drawing a conclusion](Drawing a conclusion FrAgeEst)
-* [General tips for extension writing](General tips for extension writing FrAgeEst)
+* [Study design execution](https://github.com/RDFBones/FrAgeEst/wiki/Study-design-execution)
+* [Drawing a conclusion](https://github.com/RDFBones/FrAgeEst/wiki/Drawing-a-conclusion)
+* [General tips for extension writing](https://github.com/RDFBones/FrAgeEst/wiki/General-tips-for-extension-writing)
 
     
 For a first impression, it is recommended to read them in the order ahead. Some of these pages relate to other pages which further explicate some points. The last page addresses programmers exclusively and can be skipped. The network graphs in this wiki follow the key to symbols in network graphs defined in the RDFBOnes-O wiki.
