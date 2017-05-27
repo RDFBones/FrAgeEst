@@ -715,9 +715,9 @@
 
 Sutura Coronoidea 1
 
-C1 = open = &gt;45 years 
-C1 = fusion = 45-54 years 
-C1 = closed = &lt;54 years</core1:description>
+C1 open: &lt;45 years 
+C1 fusion: 45-54 years 
+C1 closed: &gt;54 years</core1:description>
     </owl:Class>
     
 
@@ -750,9 +750,8 @@ C1 = closed = &lt;54 years</core1:description>
 
 Sutura coronoidea 2
 
-C2 = open = &gt;70 years 
-C2 = fusion = 70 years 
-C2 = closed = &lt;70 years</core1:description>
+C2 open: &lt;70 years 
+C2 fusion or closed: &gt;70 years</core1:description>
     </owl:Class>
     
 
@@ -785,9 +784,9 @@ C2 = closed = &lt;70 years</core1:description>
 
 Sutura coronoidea 3
 
-C3 = open = &gt;33 years 
-C3 = fusion = 33-42 years 
-C3 = closed = &lt;42 years</core1:description>
+C3 open: &lt;33 years 
+C3 fusion: 33-42 years 
+C3 closed: &gt;42 years</core1:description>
     </owl:Class>
     
 
@@ -820,9 +819,9 @@ C3 = closed = &lt;42 years</core1:description>
 
 Sutura Lambdoidea 1
 
-L1 = open = &gt;55 years 
-L1 = fusion = 55-64 years 
-L1 = closed = &lt;64 years</core1:description>
+L1 open: &lt;55 years 
+L1 fusion: 55-64 years 
+L1 closed: &gt;64 years</core1:description>
     </owl:Class>
     
 
@@ -855,9 +854,9 @@ L1 = closed = &lt;64 years</core1:description>
 
 Sutura lambdoidea 2
 
-L2 = open = &gt;65 years 
-L2 = fusion = 65-74 years 
-L2 = closed = &lt;74 years</core1:description>
+L2 open: &lt;65 years 
+L2 fusion: 65-74 years 
+L2 closed: &gt;74 years</core1:description>
     </owl:Class>
     
 
@@ -890,9 +889,8 @@ L2 = closed = &lt;74 years</core1:description>
 
 Sutura lambdoidea 3
 
-L3 = open = &gt;70 years 
-L3 = fusion = 70 years 
-L3 = closed = &lt;70 years</core1:description>
+L3 open: &lt;70 years 
+L3 fusion or closed: &gt;70 years</core1:description>
     </owl:Class>
     
 
@@ -925,9 +923,9 @@ L3 = closed = &lt;70 years</core1:description>
 
 Sutura Sagittalis 1
 
-S1 = open = &gt;50 years 
-S1 = fusion = 50-59 years 
-S1 = closed = &lt;59 years</core1:description>
+S1 open: &lt;50 years 
+S1 fusion: 50-59 years 
+S1 closed: &gt;59 years</core1:description>
     </owl:Class>
     
 
@@ -960,9 +958,9 @@ S1 = closed = &lt;59 years</core1:description>
 
 Sutura sagittalis 2
 
-S2 = open = &gt;35 years 
-S2 = fusion = 35-44 years 
-S2 = closed = &lt;44 years</core1:description>
+S2 open: &lt;35 years 
+S2 fusion: 35-44 years 
+S2 closed: &gt;44 years</core1:description>
     </owl:Class>
     
 
@@ -995,9 +993,9 @@ S2 = closed = &lt;44 years</core1:description>
 
 Sutura sagittalis 3
 
-S3 = open = &gt;20 years 
-S3 = fusion = 20-29 years 
-S3 = closed = &lt;29 years</core1:description>
+S3 open: &lt;20 years 
+S3 fusion: 20-29 years 
+S3 closed: &gt;29 years</core1:description>
     </owl:Class>
     
 
@@ -1030,9 +1028,9 @@ S3 = closed = &lt;29 years</core1:description>
 
 Sutura sagittalis 4
 
-S4 = open = &gt;38 years 
-S4 = fusion = 38-47 years 
-S4 = closed = &lt;47 years</core1:description>
+S4 open: &lt;38 years 
+S4 fusion: 38-47 years 
+S4 closed: &gt;47 years</core1:description>
     </owl:Class>
     
 
@@ -1065,9 +1063,9 @@ S4 = closed = &lt;47 years</core1:description>
 
 Sphenofrontal Suture
 
-SF1 = open = &gt;50 years
-SF1 = fusion = 50-59 years 
-SF1 = closed = &lt;59 years</core1:description>
+SF1 open: &lt;50 years
+SF1 fusion: 50-59 years 
+SF1 closed: &gt;59 years</core1:description>
     </owl:Class>
     
 
@@ -1100,9 +1098,9 @@ SF1 = closed = &lt;59 years</core1:description>
 
 Sphenoparietal Suture
 
-SP1 = open = &gt;55 years
-SP1 = fusion = 55-64 years 
-SP1 = closed = &lt;64 years</core1:description>
+SP1 open: &lt;55 years
+SP1 fusion: 55-64 years 
+SP1 closed: &gt;64 years</core1:description>
     </owl:Class>
     
 
