@@ -329,62 +329,6 @@
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AgeEstimation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenofrontalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenofrontalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AgeEstimation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenoparietalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenoparietalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
     <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.CoronalSuture1 -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.CoronalSuture1">
@@ -665,6 +609,62 @@
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AgeEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenofrontalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenofrontalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000070"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000055"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AgeEstimation"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenoparietalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenoparietalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Conclusion.FrAgeEst -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Conclusion.FrAgeEst">
@@ -676,76 +676,6 @@
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>The estimated age-at-death of an individual based on cranial suture closure given as AgeRange, i.e. a string like &quot;30-50&quot;.</core1:description>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformation.Fr.AgeEst.SphenofrontalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformation.Fr.AgeEst.SphenofrontalSuture">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformationObjective.FrAgeEst"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenofrontalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenofrontalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <core1:description>A DataTransformation.FrAgeEst is performed to obtain scalar SutureSpecificAgeRanges from categorical SutureScores.
-
-Sphenofrontal Suture
-
-SF1 = open = &gt;50 years
-SF1 = fusion = 50-59 years 
-SF1 = closed = &lt;59 years</core1:description>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformation.Fr.AgeEst.SphenoparietalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformation.Fr.AgeEst.SphenoparietalSuture">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformationObjective.FrAgeEst"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenoparietalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenoparietalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <core1:description>A DataTransformation.FrAgeEst is performed to obtain scalar SutureSpecificAgeRanges from categorical SutureScores.
-
-Sphenoparietal Suture
-
-SP1 = open = &gt;55 years
-SP1 = fusion = 55-64 years 
-SP1 = closed = &lt;64 years</core1:description>
     </owl:Class>
     
 
@@ -1100,6 +1030,76 @@ S4 = closed = &lt;47 years</core1:description>
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformation.Fr.AgeEst.SphenofrontalSuture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformation.Fr.AgeEst.SphenofrontalSuture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformationObjective.FrAgeEst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenofrontalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenofrontalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>A DataTransformation.FrAgeEst is performed to obtain scalar SutureSpecificAgeRanges from categorical SutureScores.
+
+Sphenofrontal Suture
+
+SF1 = open = &gt;50 years
+SF1 = fusion = 50-59 years 
+SF1 = closed = &lt;59 years</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformation.Fr.AgeEst.SphenoparietalSuture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformation.Fr.AgeEst.SphenoparietalSuture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0200000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformationObjective.FrAgeEst"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenoparietalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenoparietalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>A DataTransformation.FrAgeEst is performed to obtain scalar SutureSpecificAgeRanges from categorical SutureScores.
+
+Sphenoparietal Suture
+
+SP1 = open = &gt;55 years
+SP1 = fusion = 55-64 years 
+SP1 = closed = &lt;64 years</core1:description>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#EstimatingAgeBasedOnSutureSpecificAgeRanges -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#EstimatingAgeBasedOnSutureSpecificAgeRanges">
@@ -1108,20 +1108,6 @@ S4 = closed = &lt;47 years</core1:description>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Conclusion.FrAgeEst"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenofrontalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
-                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenoparietalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -1194,6 +1180,20 @@ S4 = closed = &lt;47 years</core1:description>
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SagittalSuture4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenofrontalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:maxQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:maxQualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenoparietalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <core1:description>The AgeRange is calculated from SutureScores for material of one single skull or parts of one single skull. Thus, the conclusion refers to a single individual. The degree of ectocranial suture closure is evaluated according to Hermann et al. 1990. Additionaly, the Sphenofrontal suture and the sphenoparietal suture are evaluated. Each suture is usually given a suture score (Open, Closed, Funsion) which is transformed into a SutureSpecificAgeRange.
 
 Given SutureSpecificAgeRanges for several sections of cranial sutures, the researcher draws a conclusion on the estimated age-at-death of an individual. The researcher specifies his way of combining different SutureSpecificAgeRanges into an individual&apos;s estimated age-at-death in the Plan.FrAgeEst. The outcome of drawing such a conclusion is an instance of Conclusion.FrAgeEst.</core1:description>
@@ -1240,6 +1240,110 @@ Given SutureSpecificAgeRanges for several sections of cranial sutures, the resea
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000963"/>
         <core1:description>The instances of this class are used as labels for instances of subclasses of SutureScore and instances of EstimatingAgeBasedOnAgeRange (= drawing a conclusion).
 They denote the appearance of traits that a researcher evaluated or denote the age of an individual that was estimated based on the AgeRange.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000963"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C1 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C1">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C2 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C2">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C3 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C3">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L1 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L1">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L2 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L2">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L3 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L3">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S1 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S1">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S2 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S2">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S3 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S3">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S4 -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S4">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SF -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SF">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange"/>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SP -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SP">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange"/>
     </owl:Class>
     
 
@@ -1295,38 +1399,6 @@ A detailed plan contributes substantially to the transparency of an investigatio
         </rdfs:subClassOf>
         <rdfs:comment>A class technically required for the automatic prescreening of potential specimen.
 The class which SkeletalMaterialSpecification.FrAgeEst is about defines the range within which the software searches for potential specimens. As default, &quot;Skeletal inventory&quot; is chosen. Thus, all skeletal inventories, i.e. all the material within a collection, is screened. By defining subclasses of &apos;Skeletal inventory&apos; and selecting one or more of these, the range of the prescreening procedure can be adjusted.</rdfs:comment>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenofrontalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenofrontalSuture">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AgeEstimation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrAgeEst).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenoparietalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenoparietalSuture">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AgeEstimation"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrAgeEst).
-Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
     </owl:Class>
     
 
@@ -1491,66 +1563,34 @@ Therefore, each instance of this class is a suitable input for the corresponding
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture -->
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenofrontalSuture -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenofrontalSuture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AgeEstimation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfSphenoidBone"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenofrontalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenofrontalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrAgeEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
     </owl:Class>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture -->
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenoparietalSuture -->
 
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenoparietalSuture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100051"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AgeEstimation"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfSphenoidBone"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenoparietalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenoparietalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <core1:description>Each instance of this Specimen class satisfies the corresponding SpecimenCollectionObjective and was select as suitable material by the researcher according to his or her refined criteria (specified in the Plan.FrAgeEst).
+Therefore, each instance of this class is a suitable input for the corresponding assay, i.e. the corresponding trait can be assessed on each instance of this class.</core1:description>
     </owl:Class>
     
 
@@ -1851,22 +1891,74 @@ Therefore, each instance of this class is a suitable input for the corresponding
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfFrontalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfSphenoidBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenofrontalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenofrontalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfSphenoidBone"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenoparietalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenoparietalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#StudyDesignExecution.FrAgeEst -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#StudyDesignExecution.FrAgeEst">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000471"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
@@ -1930,13 +2022,13 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformation.Fr.AgeEst.SphenofrontalSuture"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformation.Fr.AgeEst.SphenoparietalSuture"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2002,13 +2094,13 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformation.Fr.AgeEst.SphenofrontalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformation.Fr.AgeEst.SphenoparietalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -2071,6 +2163,18 @@ Therefore, each instance of this class is a suitable input for the corresponding
                 <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SagittalSuture4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
+                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <core1:description>For each individual&apos;s skull whose age should be estimated, an instance of StudyDesignExecution.FrAgeEst should be created.
 All assays which can be carried out on this skull have only material from this skull as input (=specimen). These assays are related to the corresponding instance of StudyDesignExecution.FrAgeEst.</core1:description>
     </owl:Class>
@@ -2088,26 +2192,6 @@ All assays which can be carried out on this skull have only material from this s
                 <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureScore"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenofrontalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenofrontalSuture">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSutureScore to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenoparietalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenoparietalSuture">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore"/>
-        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSutureScore to the instance of this class.
-The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
     </owl:Class>
     
 
@@ -2212,34 +2296,30 @@ The researcher may add a comment to this instance to explain his decision in det
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenofrontalSuture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenofrontalSuture">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSutureScore to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenoparietalSuture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore.SphenoparietalSuture">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureScore"/>
+        <core1:description>The researcher expresses his evaluation of the respective trait by assigning a LabelForSutureScore to the instance of this class.
+The researcher may add a comment to this instance to explain his decision in detail. This is recommended for limiting cases.</core1:description>
+    </owl:Class>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange -->
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000032"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#hasAgeRange"/>
-                <owl:someValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenofrontalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenofrontalSuture">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
-        <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
-    </owl:Class>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenoparietalSuture -->
-
-    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenoparietalSuture">
-        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
-        <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000938"/>
     </owl:Class>
     
 
@@ -2248,6 +2328,14 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.CoronalSuture1">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
     </owl:Class>
     
 
@@ -2256,6 +2344,13 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.CoronalSuture2">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
     </owl:Class>
     
@@ -2265,6 +2360,13 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.CoronalSuture3">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
     </owl:Class>
     
@@ -2274,6 +2376,13 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.LambdoidSuture1">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
     </owl:Class>
     
@@ -2283,6 +2392,13 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.LambdoidSuture2">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
     </owl:Class>
     
@@ -2292,6 +2408,13 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.LambdoidSuture3">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
     </owl:Class>
     
@@ -2301,6 +2424,13 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SagittalSuture1">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
     </owl:Class>
     
@@ -2310,6 +2440,13 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SagittalSuture2">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
     </owl:Class>
     
@@ -2319,6 +2456,13 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SagittalSuture3">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
     </owl:Class>
     
@@ -2328,6 +2472,45 @@ The researcher may add a comment to this instance to explain his decision in det
 
     <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SagittalSuture4">
         <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenofrontalSuture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenofrontalSuture">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SF"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
+    </owl:Class>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenoparietalSuture -->
+
+    <owl:Class rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange.SphenoparietalSuture">
+        <rdfs:subClassOf rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000999"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <core1:description>The period of an individual&apos;s life-time in which a specific section of a cranial suture is either open or in fusion or closed.</core1:description>
     </owl:Class>
     
@@ -2357,18 +2540,6 @@ The researcher may add a comment to this instance to explain his decision in det
         <core1:description>A group of anthropological methods for estimating the age of an individual based morphological or metric traits of preserved skeletal elements.</core1:description>
         <rdfs:label>Age estimation</rdfs:label>
     </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture"/>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture"/>
     
 
 
@@ -2432,31 +2603,15 @@ The researcher may add a comment to this instance to explain his decision in det
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SphenofrontalSuture -->
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SphenofrontalSuture">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990"/>
-        <core1:description>The Sphenofrontal suture is the cranial suture between the sphenoid bone and the frontal bone.
-
-The suture score of the Sphenofrontal Suture should be scored according to Hermann et al. 1990.</core1:description>
-        <rdfs:label>AssaySpecification.SphenofrontalSuture</rdfs:label>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture"/>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SphenoparietalSuture -->
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SphenoparietalSuture">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990"/>
-        <core1:description>The Sphenoparietal suture is the cranial suture between the sphenoid bone and the parietal bone. It is one of the sutures that comprises the pterion.
-
-The suture score of the Sphenoparietal Suture should be scored according to Hermann et al. 1990.</core1:description>
-        <rdfs:label>AssaySpecification.SphenoparietalSuture</rdfs:label>
-    </owl:NamedIndividual>
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture"/>
     
 
 
@@ -2465,10 +2620,10 @@ The suture score of the Sphenoparietal Suture should be scored according to Herm
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.CoronalSuture1">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.CoronalSuture1"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988"/>
         <core1:description>C1: Most medial, relatively straight, portion of the coronal suture that begins at the bregma and ends where the coronal suture becomes tortuous.
 
-The suture score of the Sutura Coronoidea section 1 should be scored according to Hermann et al. 1990.</core1:description>
+The suture score of the Sutura Coronoidea section 1 should be scored according to Szilvásy 1988, graph 158.</core1:description>
         <rdfs:label>AssaySpecification.CoronalSuture1</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2479,10 +2634,10 @@ The suture score of the Sutura Coronoidea section 1 should be scored according t
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.CoronalSuture2">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.CoronalSuture2"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988"/>
         <core1:description>C2: Middle, tortuous portion of the coronal suture between the bregma and the pterion; between the straight portions of C1 and C3.
 
-The suture score of the Sutura Coronoidea section 2 should be scored according to Hermann et al. 1990.</core1:description>
+The suture score of the Sutura Coronoidea section 2 should be scored according to Szilvásy 1988, graph 158.</core1:description>
         <rdfs:label>AssaySpecification.CoronalSuture2</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2493,10 +2648,10 @@ The suture score of the Sutura Coronoidea section 2 should be scored according t
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.CoronalSuture3">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.CoronalSuture3"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988"/>
         <core1:description>C3: Most lateral, straight portion of the coronal suture, that begins after the tortuous portion (C2) and ends at the pterion.
 
-The suture score of the Sutura Coronoidea section 3 should be scored according to Hermann et al. 1990.</core1:description>
+The suture score of the Sutura Coronoidea section 3 should be scored according to Szilvásy 1988, graph 158.</core1:description>
         <rdfs:label>AssaySpecification.CoronalSuture3</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2507,10 +2662,10 @@ The suture score of the Sutura Coronoidea section 3 should be scored according t
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.LambdoidSuture1">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.LambdoidSuture1"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988"/>
         <core1:description>L1: Most medial, straight portion of the lambdoidal suture, that begins at lambda and ends where the lambdoidal suture becomes tortuous.
 
-The suture score of the Sutura Lambdoidea section 1 should be scored according to Hermann et al. 1990.</core1:description>
+The suture score of the Sutura Lambdoidea section 1 should be scored according to Szilvásy 1988, graph 158.</core1:description>
         <rdfs:label>AssaySpecification.LambdoidSuture1</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2521,10 +2676,10 @@ The suture score of the Sutura Lambdoidea section 1 should be scored according t
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.LambdoidSuture2">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.LambdoidSuture2"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988"/>
         <core1:description>L2: The middle, tortous portion of the lambdoidal suture between the lambda and the asterion; between the straight portions of L1 and L3.
 
-The suture score of the Sutura Lambdoidea section 2 should be scored according to Hermann et al. 1990.</core1:description>
+The suture score of the Sutura Lambdoidea section 2 should be scored according to Szilvásy 1988, graph 158.</core1:description>
         <rdfs:label>AssaySpecification.LambdoidSuture2</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2535,10 +2690,10 @@ The suture score of the Sutura Lambdoidea section 2 should be scored according t
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.LambdoidSuture3">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.LambdoidSuture3"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988"/>
         <core1:description>L3: Most lateral, straight portion of the lambdoidal suture that begins after the tortuous portion (L2) and ends at the asterion.
 
-The suture score of the Sutura Lambdoidea section 3 should be scored according to Hermann et al. 1990.</core1:description>
+The suture score of the Sutura Lambdoidea section 3 should be scored according to Szilvásy 1988, graph 158.</core1:description>
         <rdfs:label>AssaySpecification.LambdoidSuture3</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2549,10 +2704,10 @@ The suture score of the Sutura Lambdoidea section 3 should be scored according t
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SagittalSuture1">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SagittalSuture1"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988"/>
         <core1:description>S1: The most anterior, straight portion of the sagittal suture (the closure line of the anterior fontanelle) (around 3cm), that begins at the bregma and ends where the sagittal suture becomes tortuous.
 
-The suture score of the Sutura Sagittalis section 1 should be scored according to Hermann et al. 1990.</core1:description>
+The suture score of the Sutura Sagittalis section 1 should be scored according to Szilvásy 1988, graph 158.</core1:description>
         <rdfs:label>AssaySpecification.SagittalSuture1</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2563,10 +2718,10 @@ The suture score of the Sutura Sagittalis section 1 should be scored according t
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SagittalSuture2">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SagittalSuture2"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988"/>
         <core1:description>S2: The tortuous portion of the sagittal suture, directly posterior to S1 (around 5cm).
 
-The suture score of the Sutura Sagittalis section 2 should be scored according to Hermann et al. 1990.</core1:description>
+The suture score of the Sutura Sagittalis section 2 should be scored according to Szilvásy 1988, graph 158.</core1:description>
         <rdfs:label>AssaySpecification.SagittalSuture2</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2577,10 +2732,10 @@ The suture score of the Sutura Sagittalis section 2 should be scored according t
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SagittalSuture3">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SagittalSuture3"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988"/>
         <core1:description>S3: The posterior, straight portion of the sagittal suture between S2 and S4.
 
-The suture score of the Sutura Sagittalis section 3 should be scored according to Hermann et al. 1990.</core1:description>
+The suture score of the Sutura Sagittalis section 3 should be scored according to Szilvásy 1988, graph 158.</core1:description>
         <rdfs:label>AssaySpecification.SagittalSuture3</rdfs:label>
     </owl:NamedIndividual>
     
@@ -2591,11 +2746,39 @@ The suture score of the Sutura Sagittalis section 3 should be scored according t
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SagittalSuture4">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SagittalSuture4"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988"/>
         <core1:description>S4: The most posterior, tortuous part of the sagittal suture that begins after S3 and ends at the lambda.
 
-The suture score of the Sutura Sagittalis section 4 should be scored according to Hermann et al. 1990.</core1:description>
+The suture score of the Sutura Sagittalis section 4 should be scored according to Szilvásy 1988, graph 158.</core1:description>
         <rdfs:label>AssaySpecification.SagittalSuture4</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SphenofrontalSuture -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SphenofrontalSuture">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988"/>
+        <core1:description>The Sphenofrontal suture is the cranial suture between the sphenoid bone and the frontal bone.
+
+The suture score of the Sphenofrontal Suture should be scored according to Szilvásy 1988, graph 158.</core1:description>
+        <rdfs:label>AssaySpecification.SphenofrontalSuture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SphenoparietalSuture -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SphenoparietalSuture">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001896"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988"/>
+        <core1:description>The Sphenoparietal suture is the cranial suture between the sphenoid bone and the parietal bone. It is one of the sutures that comprises the pterion.
+
+The suture score of the Sphenoparietal Suture should be scored according to Szilvásy 1988, graph 158.</core1:description>
+        <rdfs:label>AssaySpecification.SphenoparietalSuture</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2613,7 +2796,7 @@ The suture score of the Sutura Sagittalis section 4 should be scored according t
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformationObjective.FrAgeEst">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0200166"/>
-        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990"/>
+        <core:isMentioned rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988"/>
         <core1:description>The categorical SutureScores are transformed into scalar SutureSpecificAgeRanges according to data transformation schemes provided for each cranial suture (section) by Hermann et al. 1990.</core1:description>
         <rdfs:label>DataTransformationObjective.FrAgeEst</rdfs:label>
     </owl:NamedIndividual>
@@ -2638,37 +2821,317 @@ The suture score of the Sutura Sagittalis section 4 should be scored according t
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C1.1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C1.1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C1"/>
+        <rdfs:label>C1: &lt;45</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C1.2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C1.2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C1"/>
+        <rdfs:label>C1: 45-54</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C1.3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C1.3">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C1"/>
+        <rdfs:label>C1: &gt;54</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C2.1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C2.1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C2"/>
+        <rdfs:label>C2: &lt;70</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C2.2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C2.2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C2"/>
+        <rdfs:label>C2: &gt;70</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C3.1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C3.1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C3"/>
+        <rdfs:label>C3: &lt;33</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C3.2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C3.2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C3"/>
+        <rdfs:label>C3: 33-42</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C3.3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C3.3">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.C3"/>
+        <rdfs:label>C3: &gt;42</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L1.1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L1.1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L1"/>
+        <rdfs:label>L1: &lt;55</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L1.2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L1.2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L1"/>
+        <rdfs:label>L1: 55-64</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L1.3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L1.3">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L1"/>
+        <rdfs:label>L1: &gt;64</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L2.1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L2.1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L2"/>
+        <rdfs:label>L2: &lt;65</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L2.2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L2.2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L2"/>
+        <rdfs:label>L2: 65-74</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L2.3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L2.3">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L2"/>
+        <rdfs:label>L2: &gt;74</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L3.1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L3.1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L3"/>
+        <rdfs:label>L3: &lt;70</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L3.2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L3.2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.L3"/>
+        <rdfs:label>L3: &gt;70</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S1.1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S1.1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S1"/>
+        <rdfs:label>S1: &lt;50</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S1.2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S1.2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S1"/>
+        <rdfs:label>S1: 50-59</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S1.3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S1.3">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S1"/>
+        <rdfs:label>S1: &gt;59</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S2.1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S2.1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S2"/>
+        <rdfs:label>S2: &lt;35</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S2.2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S2.2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S2"/>
+        <rdfs:label>S2: 35-44</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S2.3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S2.3">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S2"/>
+        <rdfs:label>S2: &gt;44</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S3.1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S3.1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S3"/>
+        <rdfs:label>S3: &lt;20</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S3.2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S3.2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S3"/>
+        <rdfs:label>S3: 20-29</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S3.3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S3.3">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S3"/>
+        <rdfs:label>S3: &gt;29</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S4.1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S4.1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S4"/>
+        <rdfs:label>S4: &lt;38</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S4.2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S4.2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S4"/>
+        <rdfs:label>S4: 38-47</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S4.3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S4.3">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.S4"/>
+        <rdfs:label>S4: &gt;47</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SF.1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SF.1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SF"/>
+        <rdfs:label>SF: &lt;50</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SF.2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SF.2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SF"/>
+        <rdfs:label>SF: 50-59</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SF.3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SF.3">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SF"/>
+        <rdfs:label>SF: &gt;59</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SP.1 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SP.1">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SP"/>
+        <rdfs:label>SP: &lt;55</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SP.2 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SP.2">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SP"/>
+        <rdfs:label>SP: 55-64</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SP.3 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SP.3">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureSpecificAgeRange.SP"/>
+        <rdfs:label>SP: &gt;64</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Open -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Open">
         <rdf:type rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#LabelForSutureScore"/>
         <rdfs:label>Open</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SphenofrontalSuture -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SphenofrontalSuture">
-        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture"/>
-        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#ValueSpecification.SphenofrontalSuture"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
-        <rdfs:label>SkeletalMaterialRequirement.SphenofrontalSuture</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SphenoparietalSuture -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SphenoparietalSuture">
-        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
-        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture"/>
-        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#ValueSpecification.SphenoparietalSuture"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
-        <rdfs:label>SkeletalMaterialRequirement.SphenoparietalSuture</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2803,6 +3266,32 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SphenofrontalSuture -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SphenofrontalSuture">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#ValueSpecification.SphenofrontalSuture"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.SphenofrontalSuture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SphenoparietalSuture -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SphenoparietalSuture">
+        <rdf:type rdf:resource="http://w3id.org/rdfbones/core#SkeletalMaterialRequirement"/>
+        <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture"/>
+        <obo:OBI_0001938 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#ValueSpecification.SphenoparietalSuture"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+See corresponding instance of SpecimenCollectionObjective for further information.</core1:description>
+        <rdfs:label>SkeletalMaterialRequirement.SphenoparietalSuture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrAgeEst -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrAgeEst">
@@ -2811,26 +3300,6 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <obo:IAO_0000136 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SutureSpecificAgeRange"/>
         <core1:description>In each FrAgeEst investigation two types of data are generated. There is one categorical SutureScore for each assay, thus a maximum of 11 different SutureScores per StudyDesignExecution.FrAgeEst. Each SutureScore is transformed into a scalar SutureSpecificAgeRange aftwerwards.</core1:description>
         <rdfs:label>SpecificationOfDataToBeGeneratedInAnInvestigation.FrAgeEst</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenofrontalSuture -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenofrontalSuture">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only a set of complete sphenoid and frontal bone is a potential Specimen.SphenofrontalSuture</core1:description>
-        <rdfs:label>SpecimenCollectionObjective.SphenofrontalSuture</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenoparietalSuture -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenoparietalSuture">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
-        <core1:description>Only a set of complete sphenoid and parietal bone is a potential Specimen.SphenoparietalSuture</core1:description>
-        <rdfs:label>SpecimenCollectionObjective.SphenoparietalSuture</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -2935,15 +3404,23 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture -->
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenofrontalSuture -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenofrontalSuture">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only a set of complete sphenoid and frontal bone is a potential Specimen.SphenofrontalSuture</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.SphenofrontalSuture</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture -->
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenoparietalSuture -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture"/>
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenoparietalSuture">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0000684"/>
+        <core1:description>Only a set of complete sphenoid and parietal bone is a potential Specimen.SphenoparietalSuture</core1:description>
+        <rdfs:label>SpecimenCollectionObjective.SphenoparietalSuture</rdfs:label>
+    </owl:NamedIndividual>
     
 
 
@@ -3007,12 +3484,22 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
     
 
 
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture"/>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture"/>
+    
+
+
     <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#StudyDesign.FrAgeEst -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#StudyDesign.FrAgeEst">
         <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0500000"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SphenofrontalSuture"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SphenoparietalSuture"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.CoronalSuture1"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.CoronalSuture2"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.CoronalSuture3"/>
@@ -3023,10 +3510,10 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SagittalSuture2"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SagittalSuture3"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SagittalSuture4"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SphenofrontalSuture"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#AssaySpecification.SphenoparietalSuture"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#DataTransformationObjective.FrAgeEst"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#FreiburgDataEntryFormForAgeEstimation"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SphenofrontalSuture"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SphenoparietalSuture"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.CoronalSuture1"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.CoronalSuture2"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.CoronalSuture3"/>
@@ -3037,9 +3524,9 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SagittalSuture2"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SagittalSuture3"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SagittalSuture4"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SphenofrontalSuture"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialRequirement.SphenoparietalSuture"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecificationOfDataToBeGeneratedInAnInvestigation.FrAgeEst"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenofrontalSuture"/>
-        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenoparietalSuture"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.CoronalSuture1"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.CoronalSuture2"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.CoronalSuture3"/>
@@ -3050,6 +3537,8 @@ See corresponding instance of SpecimenCollectionObjective for further informatio
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SagittalSuture2"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SagittalSuture3"/>
         <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SagittalSuture4"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenofrontalSuture"/>
+        <obo:BFO_0000051 rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenoparietalSuture"/>
         <core1:description>The StudyDesign.FrAgeEst brings together all the information that is necessary for carrying out a FrAgeEst investigation: what material is suitable and how it is selected, how and what kind of data are collected and how data are transformed afterwards.
 Furthermore, the general StudyDesign.FrAgeEst is concretized as a plan which specifies how the StudyDesign.FrAgeEst is applied to the material in a single investigation.</core1:description>
         <rdfs:label>StudyDesign.FrAgeEst</rdfs:label>
@@ -3072,30 +3561,6 @@ Furthermore, the general StudyDesign.FrAgeEst is concretized as a plan which spe
     <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#Test -->
 
     <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Test"/>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#ValueSpecification.SphenofrontalSuture -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#ValueSpecification.SphenofrontalSuture">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete sutura or a sutura section.</core1:description>
-        <rdfs:label>ValueSpecification.SphenofrontalSuture</rdfs:label>
-    </owl:NamedIndividual>
-    
-
-
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#ValueSpecification.SphenoparietalSuture -->
-
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#ValueSpecification.SphenoparietalSuture">
-        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
-        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
-        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
-It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete sutura or a sutura section.</core1:description>
-        <rdfs:label>ValueSpecification.SphenoparietalSuture</rdfs:label>
-    </owl:NamedIndividual>
     
 
 
@@ -3219,12 +3684,36 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     
 
 
-    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990 -->
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#ValueSpecification.SphenofrontalSuture -->
 
-    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;HermannEtAl1990">
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#ValueSpecification.SphenofrontalSuture">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete sutura or a sutura section.</core1:description>
+        <rdfs:label>ValueSpecification.SphenofrontalSuture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#ValueSpecification.SphenoparietalSuture -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#ValueSpecification.SphenoparietalSuture">
+        <rdf:type rdf:resource="http://purl.obolibrary.org/obo/OBI_0001930"/>
+        <obo:OBI_0000999 rdf:resource="http://w3id.org/rdfbones/core#complete"/>
+        <core1:description>An instance technically required for the automatic prescreening of potential specimen.
+It is used to determine that the specified input of the corresponding SpecimenCollectionProcess is a complete sutura or a sutura section.</core1:description>
+        <rdfs:label>ValueSpecification.SphenoparietalSuture</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988 -->
+
+    <owl:NamedIndividual rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#&apos;Hermann_et_al_1990&apos;Szilvasy1988">
         <rdf:type rdf:resource="http://purl.org/ontology/bibo/Book"/>
-        <core1:description>Herrmann, B.; Gruppe, G.; Hummel, S.; Piepenbrink, H.; Schutkowski,H.: Prähistorische Anthropologie. Leitfaden der Feld- und Labormethoden (Berlin/Heidelberg 1990), 67, Abb. 3.2.1.8.</core1:description>
-        <rdfs:label>Hermann et al. 1990</rdfs:label>
+        <core1:description>Szilvásy, J. Altersdiagnose am Skelett. In: Knussmann, R. (1988). Anthropologie. Band I. Wesen und Methoden der Anthropologie. Gustav fiacher, Verlag.</core1:description>
+        <rdfs:label>Szilvásy 1988</rdfs:label>
     </owl:NamedIndividual>
     
 
@@ -3285,72 +3774,62 @@ It is used to determine that the specified input of the corresponding SpecimenCo
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
-    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture">
-        <core1:description>The SphenofrontalSuture should be scored according to Hermann et al. 1990.
-The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
-    </rdf:Description>
-    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture">
-        <core1:description>The SphenofrontalSuture should be scored according to Hermann et al. 1990.
-
-The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
-    </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.CoronalSuture1">
-        <core1:description>The CoronalSuture1 should be scored according to Hermann et al. 1990.
+        <core1:description>The CoronalSuture1 should be scored according to Szilvásy 1988, graph 158.
 
 The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.CoronalSuture2">
-        <core1:description>The CoronalSuture1 should be scored according to Hermann et al. 1990.
-
+        <core1:description>The CoronalSuture1 should be scored according to Szilvásy 1988, graph 158.
 The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.CoronalSuture3">
-        <core1:description>The CoronalSuture1 should be scored according to Hermann et al. 1990.
+        <core1:description>The CoronalSuture1 should be scored according to Szilvásy 1988, graph 158.
 
 The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.LambdoidSuture1">
-        <core1:description>The CoronalSuture1 should be scored according to Hermann et al. 1990.
+        <core1:description>The CoronalSuture1 should be scored according to Szilvásy 1988, graph 158.
 
 The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.LambdoidSuture2">
-        <core1:description>The CoronalSuture1 should be scored according to Hermann et al. 1990.
-
+        <core1:description>The CoronalSuture1 should be scored according to Szilvásy 1988, graph 158.
 The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.LambdoidSuture3">
-        <core1:description>The CoronalSuture1 should be scored according to Hermann et al. 1990.
+        <core1:description>The CoronalSuture1 should be scored according to Szilvásy 1988, graph 158.
 
 The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SagittalSuture1">
-        <core1:description>The CoronalSuture1 should be scored according to Hermann et al. 1990.
+        <core1:description>The CoronalSuture1 should be scored according to Szilvásy 1988, graph 158.
 
 The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SagittalSuture2">
-        <core1:description>The CoronalSuture1 should be scored according to Hermann et al. 1990.
+        <core1:description>The CoronalSuture1 should be scored according to Szilvásy 1988, graph 158.
 
 The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SagittalSuture3">
-        <core1:description>The CoronalSuture1 should be scored according to Hermann et al. 1990.
-
+        <core1:description>The CoronalSuture1 should be scored according to Szilvásy 1988, graph 158.
 The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SagittalSuture4">
-        <core1:description>The CoronalSuture1 should be scored according to Hermann et al. 1990.
+        <core1:description>The CoronalSuture1 should be scored according to Szilvásy 1988, graph 158.
 
 The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
     </rdf:Description>
-    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire suture or a section of a suture which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull that is age estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrAgeEst.</core1:description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenofrontalSuture">
+        <core1:description>The SphenofrontalSuture should be scored according to Szilvásy 1988, graph 158.
+
+The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
     </rdf:Description>
-    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture">
-        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire suture or a section of a suture which satisfies the corresponding SpecimenCollectionObjective.
-The output of the SpecimenCollectionProcess (=specimen), i.e. a skull that is age estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrAgeEst.</core1:description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#Assay.SphenoparietalSuture">
+        <core1:description>The SphenofrontalSuture should be scored according to Szilvásy 1988, graph 158.
+
+The sections should be classified as either 1) open, 2) in fusion or 3) closed.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.CoronalSuture1">
         <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire suture or a section of a suture which satisfies the corresponding SpecimenCollectionObjective.
@@ -3389,6 +3868,14 @@ The output of the SpecimenCollectionProcess (=specimen), i.e. a skull that is ag
 The output of the SpecimenCollectionProcess (=specimen), i.e. a skull that is age estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrAgeEst.</core1:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SagittalSuture4">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire suture or a section of a suture which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull that is age estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrAgeEst.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenofrontalSuture">
+        <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire suture or a section of a suture which satisfies the corresponding SpecimenCollectionObjective.
+The output of the SpecimenCollectionProcess (=specimen), i.e. a skull that is age estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrAgeEst.</core1:description>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionProcess.SphenoparietalSuture">
         <core1:description>The input of this SpecimenCollectionProcess is determined by the software which automatically prescreens all skeletal inventories for potential input. A potential input is an entire suture or a section of a suture which satisfies the corresponding SpecimenCollectionObjective.
 The output of the SpecimenCollectionProcess (=specimen), i.e. a skull that is age estimated, is determined by the researcher. The reseacher may examine the input given by the software and select specimen according to his refined criteria specified in the Plan.FrAgeEst.</core1:description>
     </rdf:Description>
