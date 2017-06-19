@@ -1501,13 +1501,15 @@ Due to the range of the &apos;has measurement value&apos; data property, data mu
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialSpecification.FrAgeEst"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SkeletalMaterialSpecification.FrAgeEst"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000054"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#StudyDesignExecution.FrAgeEst"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#StudyDesignExecution.FrAgeEst"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <core1:description>For each FrAgeEst investigation, an instance of Plan.FrAgeEst is created.
@@ -1540,7 +1542,8 @@ A detailed plan contributes substantially to the transparency of an investigatio
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000136"/>
-                <owl:someValuesFrom rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventory"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#SkeletalInventory"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment>A class technically required for the automatic prescreening of potential specimen.
@@ -1759,14 +1762,15 @@ Therefore, each instance of this class is a suitable input for the corresponding
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.CoronalSuture1"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.CoronalSuture1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.CoronalSuture1"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.CoronalSuture1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1791,14 +1795,15 @@ Therefore, each instance of this class is a suitable input for the corresponding
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.CoronalSuture2"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.CoronalSuture2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.CoronalSuture2"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.CoronalSuture2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1823,14 +1828,15 @@ Therefore, each instance of this class is a suitable input for the corresponding
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.CoronalSuture3"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.CoronalSuture3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.CoronalSuture3"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.CoronalSuture3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1855,14 +1861,15 @@ Therefore, each instance of this class is a suitable input for the corresponding
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.LambdoidSuture1"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.LambdoidSuture1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.LambdoidSuture1"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.LambdoidSuture1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1887,14 +1894,15 @@ Therefore, each instance of this class is a suitable input for the corresponding
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.LambdoidSuture2"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.LambdoidSuture2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.LambdoidSuture2"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.LambdoidSuture2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1919,14 +1927,15 @@ Therefore, each instance of this class is a suitable input for the corresponding
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.LambdoidSuture3"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.LambdoidSuture3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.LambdoidSuture3"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.LambdoidSuture3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1939,20 +1948,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SagittalSuture1"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SagittalSuture1"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SagittalSuture1"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SagittalSuture1"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1965,20 +1976,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SagittalSuture2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SagittalSuture2"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SagittalSuture2"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SagittalSuture2"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -1991,20 +2004,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SagittalSuture3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SagittalSuture3"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SagittalSuture3"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SagittalSuture3"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2017,20 +2032,22 @@ Therefore, each instance of this class is a suitable input for the corresponding
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000659"/>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SagittalSuture4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000293"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">2</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/core#EntireBonyPartOfParietalBone"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SagittalSuture4"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SagittalSuture4"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SagittalSuture4"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2055,14 +2072,15 @@ Therefore, each instance of this class is a suitable input for the corresponding
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenofrontalSuture"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenofrontalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenofrontalSuture"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenofrontalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
@@ -2087,14 +2105,15 @@ Therefore, each instance of this class is a suitable input for the corresponding
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
-                <owl:allValuesFrom rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenoparietalSuture"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
+                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenoparietalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000417"/>
-                <owl:hasValue rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#SpecimenCollectionObjective.SphenoparietalSuture"/>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OBI_0000299"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="http://w3id.org/rdfbones/extensions/FrAgeEst#Specimen.SphenoparietalSuture"/>
             </owl:Restriction>
         </rdfs:subClassOf>
     </owl:Class>
